@@ -1,5 +1,5 @@
 # MvcExample
-MVC core with onion architecture and CQRS patter
+MVC core with onion architecture and CQRS pattern
 
 Following are some key points about this example:
 
