@@ -3,7 +3,7 @@ MVC core with onion architecture and CQRS pattern
 
 Following are some key points about this example:
 
--This example is using the Onion Architecture with CQRS design patter.
+-This example is using the Onion Architecture with CQRS design pattern.
 
 -I tried to separate read and write operations by handling writes in service and reads in query handlers.
 
