@@ -1,7 +1,7 @@
 # MvcExample
 MVC core with onion architecture and CQRS pattern
 
-**Please dont for get to run "Update-Database" command after replacing your connection string.**
+**Dont forget to run "Update-Database" command after replacing your connection string.**
 
 Following are some key points about this example:
 
