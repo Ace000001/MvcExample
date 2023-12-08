@@ -1,0 +1,14 @@
+﻿@model Domain.Entities.Movie
+
+<h2>Create</h2>
+
+<form action="/movie/create" method="post">
+    <label asp-for="Name" class="">Name:</label>
+    <input asp-for="Name" />
+    <input type="submit" name="submit" />
+</form>
+
+<h3>Movie Library</h3>
+<div>
+    @await Component.InvokeAsync("Movies")
+</div>

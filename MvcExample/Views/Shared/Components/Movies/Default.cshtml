@@ -1,0 +1,6 @@
+﻿@model List<Domain.Entities.Movie>
+
+@foreach (var movie in Model)
+{
+    <p><a asp-controller="Movie" asp-action="Get" asp-route-id="@movie.Id">@movie.Name</a></p>
+}
